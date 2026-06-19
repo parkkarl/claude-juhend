@@ -1,0 +1,12 @@
+# Käsk: cd apps/api && npx vitest run  (TZ=Europe/Tallinn)
+# Repo: parkkarl/kalaradar  ·  Kuupäev: 2026-06-19
+# (kuvatud lõpp — täiskokkuvõte)
+
+   ✓ generateInvoicePdf > produces well-formed PDF for language=et 346ms
+   ✓ generateInvoicePdf > produces well-formed PDF for language=ru 372ms
+
+ Test Files  67 passed (67)
+      Tests  647 passed (647)
+   Start at  12:03:39
+   Duration  7.19s (transform 3.27s, setup 460ms, collect 13.92s, tests 6.57s, environment 27ms, prepare 8.39s)
+

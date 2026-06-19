@@ -1,0 +1,26 @@
+# Repo: parkkarl/kalaradar  ·  Kuupäev: 2026-06-19
+# Workflow: .github/workflows/test.yml
+
+### gh run list --workflow=test.yml --limit 8 (parkkarl/kalaradar)
+
+completed	success	fix: #1299 eemalda 'ahistamine/vihkamine' rida kogukonna-nõusoleku mo…	tests	main	push	27566290156	2m19s	2026-06-15T18:06:53Z
+completed	success	fix: #1299 eemalda ahistamise-rida nõusoleku modaalist	tests	fix/1299-remove-harassment-rule	pull_request	27566130754	2m14s	2026-06-15T18:04:07Z
+completed	success	feat: #1297 kogukonna-nõusolek feedi AVAMISEL (blokeerib feedi kuni n…	tests	main	push	27565695037	2m42s	2026-06-15T17:56:18Z
+completed	success	feat: #1297 kogukonna-nõusolek feedi avamisel	tests	feature/1297-feed-entry-consent	pull_request	27565505260	3m2s	2026-06-15T17:52:49Z
+completed	success	perf: #1292 PWA bundle code-split — fishData + legal-modaalid lazy (#…	tests	main	push	27564568783	2m32s	2026-06-15T17:35:46Z
+completed	success	perf: #1292 PWA bundle code-split (peamine chunk −45%)	tests	perf/1292-bundle-split	pull_request	27564413714	2m24s	2026-06-15T17:33:00Z
+completed	success	fix: #1291 migreeri uue image'i vastu ENNE konteineri vahetust (deplo…	tests	main	push	27563826592	2m33s	2026-06-15T17:22:19Z
+completed	success	fix: #1291 migreeri ENNE konteineri vahetust (deploy-aken)	tests	fix/1291-migrate-before-swap	pull_request	27563627815	2m44s	2026-06-15T17:18:43Z
+
+### gh run view 27566290156
+
+
+✓ main tests · 27566290156
+Triggered via push about 3 days ago
+
+JOBS
+✓ integration (postgres) in 1m11s (ID 81491033414)
+✓ unit tests in 2m14s (ID 81491033428)
+
+For more information about a job, try: gh run view --job=<job-id>
+View this run on GitHub: https://github.com/parkkarl/kalaradar/actions/runs/27566290156
