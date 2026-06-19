@@ -4,7 +4,9 @@ See dokument tõendab, et vähemalt üks kvaliteedikontroll töötab. Kalaradari
 korraga **unit-testid (API + PWA)**, **tüübikontroll** ja **GitHub Actions CI**.
 Toorväljundid on kaustas [`toendid/`](toendid/).
 
-Kuupäev: 2026-06-19. Repo: `parkkarl/kalaradar` (monorepo, mille kohta [CLAUDE.md](CLAUDE.md) kehtib).
+Repo: `parkkarl/kalaradar` (monorepo, mille kohta [CLAUDE.md](CLAUDE.md) kehtib).
+Unit-testid jooksutati ja jäädvustati **2026-06-19**; CI-runid on viimased main-merge'd
+**2026-06-15** (uuemaid merge'sid pole vahepeal tehtud).
 
 ---
 
@@ -33,6 +35,7 @@ Käsk: `cd apps/pwa && npx vitest run`  ·  toorväljund: [`toendid/pwa-vitest.t
 ## 3. GitHub Actions CI — roheline PR-i ja main'i peal
 
 Workflow: `.github/workflows/test.yml` (jookseb `pull_request → main` ja `push → main`).
+Allolevad runid on 2026-06-15 viimased merge'd (väljavõte tehtud 06-19).
 Toorväljund: [`toendid/ci-runs.txt`](toendid/ci-runs.txt)
 
 ```

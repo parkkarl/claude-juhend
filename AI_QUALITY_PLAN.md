@@ -102,9 +102,9 @@ Need samad käsud jooksevad ka CI-s, nii et lokaalne roheline = CI roheline.
   fikseerivast testist. Muudatus ilma testita pole valmis.
 - **Teste ei kustutata** põhjuseta — ainult kui need on selgelt aegunud ja põhjus on kirjas.
 - **Täielik suite enne valmismärkimist** — kõik testid jooksevad, mitte ainult muudetud osa.
-- **Integratsioonitestid** — plpgsql trigger-loogika (hot-ranking, migratsioonid 055–057)
+- **Integratsioonitestid** — plpgsql trigger-loogika (hot-ranking, migratsioonid 055–056)
   testitakse päris Postgresi vastu (mock ei jookse plpgsql-i). Just see värav püüaks
-  #1209-tüüpi trigger-vea.
+  #1209-tüüpi trigger-vea (vt `.github/workflows/test.yml` `integration` job).
 - **Subsüsteemi-dokumendid enne muutmist** — kriitiliste flow'de (cancel-subscription,
   jagamine) invariandid on dokumenteeritud ja CLAUDE.md sunnib need enne muutmist läbi
   lugema.

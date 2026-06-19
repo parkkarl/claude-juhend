@@ -1,4 +1,4 @@
-# Repo: parkkarl/kalaradar  ·  Kuupäev: 2026-06-19
+# Repo: parkkarl/kalaradar  ·  Väljavõte tehtud: 2026-06-19  ·  Runid: 2026-06-15 (viimased merge'd)
 # Workflow: .github/workflows/test.yml
 
 ### gh run list --workflow=test.yml --limit 8 (parkkarl/kalaradar)
